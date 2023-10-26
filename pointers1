@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+
+int main()
+{int var=10;
+int *ptr=&var;
+cout<<"prints value of variable:"<<var<<endl;
+cout<<"prints value present at address given by pointer:"<<*ptr<<endl;
+cout<<"prints address of var:"<<&var<<endl;
+cout<<"prints value of ptr:"<<ptr<<endl;
+cout<<"prints address of ptr:"<<&ptr;
+
+
+}
